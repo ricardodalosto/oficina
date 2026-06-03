@@ -28,8 +28,8 @@ const Footer = () => {
           </p>
           <div className="social-icons">
             <a href="https://wa.me/556199018287" target="_blank" rel="noopener noreferrer" title="WhatsApp">WA</a>
-            <a href="https://instagram.com/suaoficina" target="_blank" rel="noopener noreferrer" title="Instagram">IG</a>
-            <a href="https://facebook.com/suaoficina" target="_blank" rel="noopener noreferrer" title="Facebook">FB</a>
+            <a href="https://instagram.com/vemagcenter" target="_blank" rel="noopener noreferrer" title="Instagram">IG</a>
+            <a href="https://facebook.com/vemagcenter" target="_blank" rel="noopener noreferrer" title="Facebook">FB</a>
           </div>
         </div>
       </div>

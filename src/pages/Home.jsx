@@ -8,10 +8,16 @@ const Home = () => {
         <div className="hero-overlay"></div>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="hero-content">
-            <span className="badge">Oficina Especializada</span>
+            <div className="hero-brand-card">
+              <div className="hero-logo-mark">⚙️</div>
+              <div>
+                <span className="badge">Oficina Especializada</span>
+                <strong className="hero-brand-name">DELSON VEMAG</strong>
+              </div>
+            </div>
             <h1>DKW-Vemag & Clássicos</h1>
             <p>Mantendo viva a lenda dos motores dois tempos. Restauração rigorosa, mecânica especializada e a perícia de quem ama o que faz.</p>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+            <div className="hero-actions" style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
               <Link to="/contact" className="btn btn-primary">Agendar Serviço</Link>
               <Link to="/vemag" className="btn btn-secondary">Sobre o Vemaguet</Link>
               <a
@@ -22,6 +28,22 @@ const Home = () => {
               >
                 Localização
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vemag Highlight Section */}
+      <section className="section-padding" style={{ backgroundColor: 'var(--bg-primary)' }}>
+        <div className="container">
+          <div className="photo-showcase-card">
+            <div className="photo-showcase-copy">
+              <span className="badge">Vemag em destaque</span>
+              <h2>Uma imagem que conta a história do nosso trabalho</h2>
+              <p>Agora a foto do Vemag aparece em um bloco próprio na página inicial, com um movimento sutil para dar mais vida ao layout.</p>
+            </div>
+            <div className="photo-frame">
+              <img src="/vemag.jpeg" alt="Vemag em destaque" className="photo-animate" />
             </div>
           </div>
         </div>
